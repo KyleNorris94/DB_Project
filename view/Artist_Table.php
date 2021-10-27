@@ -1,13 +1,4 @@
-<!DOCTYPE html>
-<html>
-<link rel="database1" href="tattoo_artist.sql">
-<link rel="stylesheet" href="main_page_style.css">
-<link href="style.css" rel="stylesheet" type="text/css">
-<script src="submission_validation.js"></script>
-<head>
-<title>Tattoo_DB</title>
-</head>
-<body>
+   <?php> <p><a href="javascript:history.go(-1)" title="Return to previous page">« Go back</a></p><?>
 <table>
     <thead>
         <tr>
@@ -16,28 +7,18 @@
     </thead>
     <tbody>
         <tr>
-            <td><a href="Kyle_Page.php">Kyle</a></td>
-            <td>Guest</td>
+            <td><a href="artists/Kyle_Page.php">Kyle</a></td>
         </tr>
               <tr>
-            <td><a href="Olivia.php">Olivia</a></td>
-            <td>Guest</td>
+            <td><a href="artists/Olivia.php">Olivia</a></td>
         </tr>
               <tr>
-            <td><a href="Amber.php">Amber</a></td>
-            <td>Guest</td>
+            <td><a href="artists/Amber.php">Amber</a></td>
+        </tr>
+        <tr>
+            <td><a href="artists/Guest.php">Guest</a></td>
         </tr>
     </tbody>
-</table>
+</table> <br>
+    <?php include 'footer.php'; ?>
 
-
-<?php
-
-/* 
- * To change this license header, choose License Headers in Project Properties.
- * To change this template file, choose Tools | Templates
- * and open the template in the editor.
- */
-?>
-</body>
-</html>
